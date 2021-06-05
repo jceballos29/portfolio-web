@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    list-style: none;
+}
+
+.btn {
+    margin-top: 30px;
+    color: white;
+    background: #2b6684;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.vertical-text {
+    width:20px;
+    word-wrap: break-word;
+    text-align:center;
+    line-height:40px;
+  }
