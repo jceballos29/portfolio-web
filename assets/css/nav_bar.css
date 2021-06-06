@@ -75,8 +75,7 @@ ul.show{
         left: 0;
         background-color: #c2d2e9;
         width: 100%;
-        height: calc(100% - 7576
-        0px);
+        height: calc(100% - 60px);
         z-index: 1000000;
     }
 
@@ -84,7 +83,7 @@ ul.show{
         height: 20%;
         text-align: center;
         border-bottom: 1px solid grey;
-        font-size: 2rem;
+        /* font-size: 3rem; */
         display: flex;
         align-items: center;
         justify-content: center;
@@ -93,8 +92,12 @@ ul.show{
     .nav-menu li a {
         color: #3a4e7a;
         font-weight: bold;
+        font-size: 1.5rem;
     }
 
+    .nav-menu li a:hover {
+        border-bottom: none;
+    }
 
     .nav-btn {
         display: inline-flex;
