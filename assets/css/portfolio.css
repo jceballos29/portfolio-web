@@ -45,7 +45,7 @@
     transition: all 500ms ease-out;
 }
 
-.slide > .text {
+.slide .text {
     position: absolute;
     top: -50px;
     width: 100%;
@@ -108,42 +108,6 @@
     transform: scale(1.3);
 }
 
-.navigation-manual {
-    position: absolute;
-    width: 800px;
-    margin-top: -40px;
-    display: flex;
-    justify-content: center;
-}
-
-.manual-btn {
-    border: 2px solid grey;
-    padding: 5px;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: 1s;
-}
-
-.manual-btn:not(:last-child){
-    margin-right: 40px;
-}
-
-.manual-btn:hover {
-    background: black;
-}
-
-#radio1:checked ~ .first {
-    margin-left: 0;
-} 
-
-#radio2:checked ~ .first {
-    margin-left: -20%;
-}
-
-#radio3:checked ~ .first {
-    margin-left: -40%;
-}
-
-#radio4:checked ~ .first {
-    margin-left: -60%;
+@media screen and (max-width: 786px) {
+    .slide .text {top: 0;}   
 }
