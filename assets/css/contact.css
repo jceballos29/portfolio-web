@@ -50,13 +50,6 @@
 
 .form .btn {
     margin-top: 5px;
-    background: transparent;
-    border: 0;
-    color: #091d36;
-    outline: none;
-    border: 1px solid #3a4e7a;
-
-
 }
 
 @media screen and (max-width: 576px) {
