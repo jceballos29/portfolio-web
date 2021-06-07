@@ -39,7 +39,6 @@
     grid-template-rows: repeat(3,auto);
     row-gap: 5px;
 
-    /* border: 1px solid #091d36; */
     padding: 20px;
     border-radius: 15px;
     box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.7);
@@ -84,8 +83,6 @@
         width: 70%;
         margin: auto;
         justify-content: center;
-        /* grid-template-columns: 1fr;
-        grid-template-rows: repeat(3,1fr); */
         row-gap: 20px;
     }
 }
